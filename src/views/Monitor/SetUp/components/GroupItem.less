@@ -1,0 +1,102 @@
+.GroupItem {
+  width: 388px;
+  border: 1px solid #dde6f0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  .GroupItem_title {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #dde6f0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #39475b;
+    .GroupItem_title_left {
+      display: flex;
+      span {
+        display: block;
+        &:nth-of-type(1) {
+          max-width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+    .GroupItem_title_right {
+      font-size: 12px;
+      span {
+        padding-left: 10px;
+        color: #0090ff;
+        cursor: pointer;
+      }
+    }
+  }
+  .input_list {
+    padding: 20px;
+  }
+  .wfzsearch{
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .GroupItem_list {
+    flex: 1;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    .seatboxbott {
+      margin-bottom: 20px;
+    }
+    &.add_list {
+      height: 300px;
+    }
+    .GroupItem_list_item {
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid #dde6f0;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #3b4859;
+      background: #f9fafc;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 20px;
+      cursor: pointer;
+      &.active {
+        background-color: #0090ff;
+        color: #fff;
+        border-color: #0090ff;
+      }
+    }
+  }
+  .GroupItem_btn {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    div {
+      width: 60px;
+      margin-left: 20px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+
+      background: #0090ff;
+      border: 1px solid #0090ff;
+      border-radius: 15px;
+      font-size: 12px;
+      color: #fff;
+      cursor: pointer;
+      &.GroupItem_btn_close {
+        background-color: #fff;
+        color: #8392a7;
+        border: 1px solid #aeb9ca;
+      }
+    }
+  }
+}

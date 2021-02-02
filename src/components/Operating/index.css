@@ -1,0 +1,73 @@
+.ant-form-vertical .formItem {
+  flex-direction: inherit;
+  margin-bottom: 16px;
+}
+
+.ant-popover-message {
+  display: none;
+}
+.ant-form-vertical .form-select-item {
+  margin: 0 20px 10px 0;
+  flex-wrap: nowrap;
+}
+.form-select-box {
+  display: flex;
+}
+.form-select-item .ant-form-item-label {
+  /*text-align: right;*/
+  line-height: 30px;
+  padding: 0 10px 0 0;
+}
+.searchBtn {
+  margin: 0 10px 0 20px;
+}
+
+.exportBox {
+  margin-bottom: 10px;
+}
+
+.ant-form-item-label > label {
+  white-space: nowrap;
+  line-height: 30px;
+}
+.view-form-box {
+  justify-content: flex-end;
+}
+
+.view-form-box .ant-form-item-label {
+  padding: 0 10px 0 0;
+}
+
+.form-select-box .ant-select-selector {
+  width: 160px !important;
+}
+
+.add-but-box {
+  display: flex;
+  justify-content: left;
+}
+
+.group-charts-wrapper {
+  background: #fff;
+  padding: 0 0 50px 0;
+}
+
+.group-charts-wrapper .group-charts-keys {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 20px 0 0;
+}
+
+.active-chart-box {
+  position: relative;
+}
+
+.active-chart-btn-explain-box {
+  position: absolute;
+  top: -30px;
+  left: 50px;
+}
+
+.active-chart-btn {
+  margin: 0 8px 10px 0;
+}

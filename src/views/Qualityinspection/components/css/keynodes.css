@@ -1,0 +1,23 @@
+.round-color-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.round-success {
+  background: #5cd701;
+}
+
+.round-failure {
+  background: #ff3b30;
+}
+
+.round-not {
+  background: #c8c8c8;
+}
+
+.round-no {
+  background: #f5a522;
+}

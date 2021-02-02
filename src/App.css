@@ -1,0 +1,27 @@
+.mt16 {
+  margin-top: 16px;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+
+.w300 {
+  width: 300px !important;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  color: #1890ff;
+}
+.ant-layout-content {
+  background: url('https://img.kaikeba.com/logo_cms.png') no-repeat center;
+}

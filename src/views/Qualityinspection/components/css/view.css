@@ -1,0 +1,15 @@
+.view-form-box {
+  padding: 0 30px;
+}
+.view-list-box {
+  background: #fff;
+}
+
+.ant-form-vertical .formItem {
+  padding-top: 4px;
+}
+
+.link-img {
+  color: #1890ff;
+  cursor: pointer;
+}

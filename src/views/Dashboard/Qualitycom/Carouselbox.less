@@ -1,0 +1,47 @@
+.Carouselbox {
+  height: 440px;
+  overflow: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  .Carouselbox_item {
+    .Carouselbox_item_top {
+      display: flex;
+      padding: 0 20px;
+      span {
+        display: block;
+        padding: 0 10px;
+        height: 30px;
+        text-align: center;
+        color: #3b4859;
+        line-height: 30px;
+        background: #e5f5fd;
+        border-radius: 30px;
+        margin-right: 10px;
+        &:nth-of-type(2) {
+          background-color: #efeaff;
+        }
+      }
+    }
+    .Carouselbox_item_conent {
+      padding-top: 20px;
+      .Carouselbox_item_conent_item {
+        display: flex;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        height: 22px;
+        line-height: 22px;
+        justify-content: space-between;
+        p {
+          color: #3b4859;
+          span {
+            color: #0090ff;
+            cursor: pointer;
+          }
+          &:last-of-type {
+            color: #8998ac;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.AppIndex {
+  margin-top: 16px;
+  font-size: 30px;
+  background: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
